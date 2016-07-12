@@ -117,7 +117,7 @@ dependencies {
 //    debugCompile project(':Mavlink')
 //    sitlCompile project(':Mavlink')
 
-    compile files('libs/Mavlink.jar')
+    compile  files('../../dronekit-android/ClientLib/libs/Mavlink.jar')
     compile files('libs/d2xx.jar')
 
     androidTestCompile 'junit:junit:4.12'

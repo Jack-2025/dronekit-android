@@ -155,7 +155,7 @@ public class ConnectionParameter implements Parcelable {
 
     /**
      */
-    private ConnectionParameter(int connectionType, Bundle paramsBundle){
+    public ConnectionParameter(int connectionType, Bundle paramsBundle){
         this.connectionType = connectionType;
         this.paramsBundle = paramsBundle;
     }
